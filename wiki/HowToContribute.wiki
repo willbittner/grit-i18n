@@ -2,7 +2,7 @@
 
 = Contributing to GRIT =
 
-Please feel free to contribute patches to GRIT.  If you have a new project using GRIT, please let us know by sending a message to the developer group (http://groups.google.com/group/grit-developer), and join the user group (http://groups.google.com/group/grit-users).
+Please feel free to contribute patches to GRIT.  If you have a new project using GRIT, please let us know by sending a message to the developer group (http://groups.google.com/group/grit-developer), and join the user group (http://groups.google.com/group/grit-users).  Also, note the RegressionTestPlan that describes how we ensure GRIT stays compatible with your project.
 
 Those who send the occasional patch should ask one of the project committers (https://code.google.com/p/grit-i18n/people/list) to land their patch for them after review.  Please read the following section on preparing patches for review.
 
