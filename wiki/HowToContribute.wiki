@@ -10,6 +10,8 @@ Those who have submitted several patches and expect to submit patches on a regul
 
 == Preparing Patches ==
 
+You should read the GritUsersGuide and the DesignOverview for background on the intended usage and design of GRIT.  For more details or for help with how to design your patch, ask one of the project committers.
+
 We use the Chromium depot_tools to upload patches to the Rietveld review tool.  Please install the tools (http://www.chromium.org/developers/how-tos/install-depot-tools) and then use `gcl upload` (if you use SVN) or `git cl upload` (if you use git) to upload a patch before you send it for review.
 
 Before sending patches for review, make sure `grit.py unit` runs without warnings.
