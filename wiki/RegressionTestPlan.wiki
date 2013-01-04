@@ -5,7 +5,7 @@
 Multiple projects use GRIT.  This document details the regression testing plan employed by the GRIT project to ensure compatibility with all of the projects using it.
 
 The plan is fairly straight forward:
-   # Each change must pass [ grit.py unit ] with no errors before being checked in. Ideally, the command should be tested on both Linux and Windows, since some behavior may break on case-insensitive platforms and other behavior may break on case-sensitive platforms.
+   # Each change must pass `grit.py unit` with no errors before being checked in. Ideally, the command should be tested on both Linux and Windows, since some behavior may break on case-insensitive platforms and other behavior may break on case-sensitive platforms, or may break due to different path separator characters.
    # Projects using GRIT should proactively contribute unit tests and regression tests that will be run as part of [ grit.py unit ] to ensure any functionality they require does not get modified by accident.
    # When a project reports that a new version of GRIT has broken functionality for that project, the GRIT team and folks on the project should work together to get a regression test added.
 
