@@ -1,4 +1,3 @@
-
 #summary GRIT Users Guide
 
 =Getting Started=
@@ -82,6 +81,12 @@ Any resource that is not a simple message and contains one or more translateable
   * file: The file, *relative to the .grd file* that the structure is kept in. If it is a structure type taken from an .rc file, the structure resides in the file along with possibly lots of other structures, and is looked up by its textual ID (the 'name' attribute). Otherwise it takes up the whole file (i.e. the whole contents of the file are the contents of the `<structure>` element).
 
 Note that GRIT only has support for symbolic resource IDs (IDs that are preprocessor defines that are given a numeric value) and not for string literal resource IDs. The latter are suboptimal, since they increase the size of the resources. If the .rc file you point to uses string literal resource IDs, you will have to #define those string literals manually to use those resources. The recommended approach is to only use symbolic resource IDs.
+
+==Splitting Resources into Multiple Files==
+
+It is possible to have 'sub' grd files, the ones with .grdp extension.
+
+They can be include in .grd files using the `<part>` element. See [https://code.google.com/p/chromium/codesearch#chromium/src/chrome/app/bookmarks_strings.grdp&sq=package:chromium&type=cs this example].
 
 =Outputs and Translations=
 
