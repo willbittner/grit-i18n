@@ -2,7 +2,7 @@
 
 =Getting Started=
 
-Use SVN to fetch the GRIT sources, and run [grit.py] for help. GRIT integrates easily with [http://code.google.com/p/gyp/ GYP], see [http://codesearch.google.com/#search/&q=grit%20file:%5C.gyp&type=cs examples].
+Use SVN to fetch the GRIT sources, and run [grit.py] for help. GRIT integrates easily with [http://code.google.com/p/gyp/ GYP], see [https://code.google.com/p/chromium/codesearch#search/&q=grit%20file:%5C.gyp&sq=package:chromium&type=cs examples].
 
 It's a good idea to run all of GRIT's unit tests to check that your installation is OK. Just run `grit unit`, which should print the result of a bunch of tests, ending with OK.
 
